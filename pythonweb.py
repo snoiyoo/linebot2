@@ -7,12 +7,11 @@ import requests # pip install requests
 import urllib3
 app = Flask(__name__)
 line_bot_api =
-LineBotApi('yQh1VyVtqSvQck/1blc8QQ7sSxdIPNI9+CYB78XF9dUP0Ho2lGJ02rtnlaqe6aFlUeyVCszB6P6dy3GM5VgoY39OWbwmP
-CcljSOBcBbke6lc5ePxoaWp9pIRiC5M/hC2w/m25KnZ4MRvEOliFccGhAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('2ba452b79e30fcf854be2b49785a7bd5')
-APPID="LineBotRpi"
-KEY = "bjuWQftBs1hMHSw"
-SECRET = "EUUdgsgDClUdqdzIDGnwjZ752"
+LineBotApi('eypGeGLl5S/n8VBnH/XN0MdXDAgRgsjmr0O7hVa+DWlfUMDxGRHc1sUbe8u99zTMJtOJIzuVNYIFOVAcg6F1v1d4Bt2fn8Zd5pZdTYa572tqUBB1+yKh6H4mxka6XzNUyqrBBYNfFt963IZEhQ+LUgdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('6300e45cda84767687909c6059b2850c')
+APPID="LEDControl1"
+KEY = "K5RtqjUJndtV2em"
+SECRET = "12c7fCo9RLw0bdu2rNAvtHXrM"
 Topic = "/LED_Control"
 url = 'https://api.netpie.io/topic/' + str(APPID) + str(Topic)
 #curl -X PUT "https://api.netpie.io/topic/LineBotRpi/LED_Control" -d "ON" -u Jk0ej35pLC7TVr1:edWzwTUkzizhlyRamWWq6nF9I
